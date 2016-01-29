@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.Wix.WPFApp", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{863D8355-87CD-4853-B777-697F0CCBFDE4}"
 	ProjectSection(SolutionItems) = preProject
-		Scr\HQF.Tutorial.Wix.WPFApp\Readme.md = Scr\HQF.Tutorial.Wix.WPFApp\Readme.md
+		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "HQF.Tutorial.Wix.Installer.WPF", "Installer\HQF.Tutorial.Wix.Installer.WPF\HQF.Tutorial.Wix.Installer.WPF.wixproj", "{594C786F-BF5E-41CB-A207-D944C90819B9}"
