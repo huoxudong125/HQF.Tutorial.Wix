@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.Wix.WPFApp", "Scr\HQF.Tutorial.Wix.WPFApp\HQF.Tutorial.Wix.WPFApp.csproj", "{A45E4286-8734-4E10-89E6-8ECAD7397061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{863D8355-87CD-4853-B777-697F0CCBFDE4}"
+	ProjectSection(SolutionItems) = preProject
+		Scr\HQF.Tutorial.Wix.WPFApp\Readme.md = Scr\HQF.Tutorial.Wix.WPFApp\Readme.md
+	EndProjectSection
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "HQF.Tutorial.Wix.Installer.WPF", "Installer\HQF.Tutorial.Wix.Installer.WPF\HQF.Tutorial.Wix.Installer.WPF.wixproj", "{594C786F-BF5E-41CB-A207-D944C90819B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{84D6C581-F917-40FE-89F9-CC5CAF5EBEFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoApp", "DemoApp", "{D40A7817-E108-4256-AA9D-B8DCCC830D6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45E4286-8734-4E10-89E6-8ECAD7397061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45E4286-8734-4E10-89E6-8ECAD7397061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45E4286-8734-4E10-89E6-8ECAD7397061}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A45E4286-8734-4E10-89E6-8ECAD7397061}.Debug|x86.Build.0 = Debug|Any CPU
+		{A45E4286-8734-4E10-89E6-8ECAD7397061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45E4286-8734-4E10-89E6-8ECAD7397061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45E4286-8734-4E10-89E6-8ECAD7397061}.Release|x86.ActiveCfg = Release|Any CPU
+		{A45E4286-8734-4E10-89E6-8ECAD7397061}.Release|x86.Build.0 = Release|Any CPU
+		{594C786F-BF5E-41CB-A207-D944C90819B9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{594C786F-BF5E-41CB-A207-D944C90819B9}.Debug|x86.ActiveCfg = Debug|x86
+		{594C786F-BF5E-41CB-A207-D944C90819B9}.Debug|x86.Build.0 = Debug|x86
+		{594C786F-BF5E-41CB-A207-D944C90819B9}.Release|Any CPU.ActiveCfg = Release|x86
+		{594C786F-BF5E-41CB-A207-D944C90819B9}.Release|x86.ActiveCfg = Release|x86
+		{594C786F-BF5E-41CB-A207-D944C90819B9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A45E4286-8734-4E10-89E6-8ECAD7397061} = {D40A7817-E108-4256-AA9D-B8DCCC830D6A}
+		{594C786F-BF5E-41CB-A207-D944C90819B9} = {84D6C581-F917-40FE-89F9-CC5CAF5EBEFD}
+	EndGlobalSection
+EndGlobal
